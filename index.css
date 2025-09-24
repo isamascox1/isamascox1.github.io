@@ -3,33 +3,46 @@
     padding: 20;
     margin: 20;
     font-family: "Story Script", sans-serif;
+
+.color_texto {
+        color: red;
+    }
 }
+
 /*  */
 .info-personal {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 1px;
     font-family:    'Times New Roman', Times, serif;
 }
 .formacion-academica {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 1px;
     font-family:    'Times New Roman', Times, serif;
 }
 .idiomas {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     border-radius: 10px;
     font-family:    'Times New Roman', Times, serif;
 }
-.referencias {
+
+    .habilidades {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    margin: 20px;
+    padding: 2px;
+    margin: px;
+    border-radius: 10px;
+    font-family:    'Times New Roman', Times, serif;
+}
+.Referencias_Personales{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    margin: 0px;
     border-radius: 10px;
     font-family:    'Times New Roman', Times, serif;
 }
@@ -50,7 +63,7 @@
 
 .horizontal {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-image: url("assets/nier_automata.png");
     background-size: cover;
